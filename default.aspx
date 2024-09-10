@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="CVBlog.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="CVBlog.WebForm1" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -178,35 +178,21 @@
                     <li class="list-inline-item">
                         <i class="fab fa-css3-alt"></i>
                     </li>
+
+                    <li class="list-inline-item">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </li>
                     <li class="list-inline-item">
                         <i class="fab fa-js-square"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fab fa-angular"></i>
+                        <i class="fab fa-python"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fab fa-react"></i>
+                       <i class="fa-solid fa-database"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="fab fa-node-js"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-sass"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-less"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-wordpress"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-gulp"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-grunt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-npm"></i>
+                       <i class="fa-brands fa-flutter"></i>
                     </li>
                 </ul>
 
@@ -245,10 +231,10 @@
         <hr class="m-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-           
+
 
             <div class="my-auto">
-                 <h2 class="mb-5">Awards &amp; Certifications</h2>
+                <h2 class="mb-5">Awards &amp; Certifications</h2>
                 <asp:Repeater ID="Repeater6" runat="server">
                     <ItemTemplate>
                         <ul class="fa-ul mb-0">
