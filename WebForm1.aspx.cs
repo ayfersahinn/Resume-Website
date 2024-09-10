@@ -30,6 +30,10 @@ namespace CVBlog
             DataSet1TableAdapters.HOBBYTableAdapter dt5 = new DataSet1TableAdapters.HOBBYTableAdapter();
             Repeater5.DataSource = dt5.hobbyList();
             Repeater5.DataBind();
+
+            DataSet1TableAdapters.AWARDSTableAdapter dt6 = new DataSet1TableAdapters.AWARDSTableAdapter();
+            Repeater6.DataSource= dt6.awardsList();
+            Repeater6.DataBind();
         }
     }
 }
