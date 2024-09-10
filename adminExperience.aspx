@@ -26,13 +26,14 @@
                             <td style=" word-break: break-all;"><%# Eval("DESCRIPTION") %></td>
                             <td style=" word-break: break-all;"><%# Eval("DATE") %></td>
                             <td style="white-space: nowrap;">
-                                <asp:HyperLink ID="btnDelete" runat="server" CssClass="btn btn-danger ">Delete</asp:HyperLink>
-                                <asp:HyperLink ID="btnUpdate" runat="server" CssClass="btn btn-success ">Update</asp:HyperLink>
+                                <asp:HyperLink ID="btnDelete" NavigateUrl='<%# "adminDelete.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-danger ">Delete</asp:HyperLink>
+                                <asp:HyperLink ID="btnUpdate" NavigateUrl='<%# "adminUpdate.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-info">Update</asp:HyperLink>
                             </td>
                         </tr>
                     </ItemTemplate>
                 </asp:Repeater>
             </tbody>
         </table>
+        <asp:Button ID="btnAdd" runat="server" Text="+ ADD" CssClass="btn btn-success" OnClick="btnAdd_Click" />
     </form>
 </asp:Content>

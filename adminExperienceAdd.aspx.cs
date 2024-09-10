@@ -7,18 +7,18 @@ using System.Web.UI.WebControls;
 
 namespace CVBlog
 {
-    public partial class adminExperience : System.Web.UI.Page
+    public partial class adminExperienceAdd : System.Web.UI.Page
     {
         DataSet1TableAdapters.EXPERIENCETableAdapter dt = new DataSet1TableAdapters.EXPERIENCETableAdapter();
         protected void Page_Load(object sender, EventArgs e)
         {
-           Repeater1.DataSource = dt.ExperienceList();
-           Repeater1.DataBind();   
+            
         }
 
-        protected void btnAdd_Click(object sender, EventArgs e)
+        protected void btnSave_Click(object sender, EventArgs e)
         {
-            Response.Redirect("adminExperienceAdd.aspx");
+            dt.experienceAdd(txtTopic.Text, txtSubtitle.Text, txtDesc.Text, txtDate.Text);
+            Response.Redirect("adminExperience.aspx");
         }
     }
 }
