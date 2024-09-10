@@ -20,14 +20,14 @@
                 <asp:Repeater ID="Repeater1" runat="server">
                     <ItemTemplate>
                         <tr>
-                            <th style=" word-break: break-all;"><%# Eval("ID") %></th>
-                            <td style=" word-break: break-all;"><%# Eval("TOPIC") %></td>
-                            <td style=" word-break: break-all;"><%# Eval("SUBTITLE") %></td>
-                            <td style=" word-break: break-all;"><%# Eval("DESCRIPTION") %></td>
-                            <td style=" word-break: break-all;"><%# Eval("DATE") %></td>
+                            <th style=" word-break: normal;"><%# Eval("ID") %></th>
+                            <td style=" word-break: normal;"><%# Eval("TOPIC") %></td>
+                            <td style=" word-break: normal;"><%# Eval("SUBTITLE") %></td>
+                            <td style=" word-break: normal;"><%# Eval("DESCRIPTION") %></td>
+                            <td style=" word-break: normal;"><%# Eval("DATE") %></td>
                             <td style="white-space: nowrap;">
-                                <asp:HyperLink ID="btnDelete" NavigateUrl='<%# "adminDelete.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-danger ">Delete</asp:HyperLink>
-                                <asp:HyperLink ID="btnUpdate" NavigateUrl='<%# "adminUpdate.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-info">Update</asp:HyperLink>
+                                <asp:HyperLink ID="btnDelete" NavigateUrl='<%# "adminExperienceDelete.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-danger ">Delete</asp:HyperLink>
+                                <asp:HyperLink ID="btnUpdate" NavigateUrl='<%# "adminExperienceUpdate.aspx?ID=" + Eval("ID") %>' runat="server" CssClass="btn btn-info">Update</asp:HyperLink>
                             </td>
                         </tr>
                     </ItemTemplate>
