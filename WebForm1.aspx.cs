@@ -26,6 +26,10 @@ namespace CVBlog
             DataSet1TableAdapters.SKILLSTableAdapter dt4 = new DataSet1TableAdapters.SKILLSTableAdapter();
             Repeater4.DataSource=dt4.skillList();
             Repeater4.DataBind();
+
+            DataSet1TableAdapters.HOBBYTableAdapter dt5 = new DataSet1TableAdapters.HOBBYTableAdapter();
+            Repeater5.DataSource = dt5.hobbyList();
+            Repeater5.DataBind();
         }
     }
 }
