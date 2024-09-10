@@ -211,20 +211,16 @@
                 </ul>
 
                 <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Mobile-First, Responsive Design</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Browser Testing &amp; Debugging</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Functional Teams</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Agile Development &amp; Scrum</li>
-                </ul>
+                <asp:Repeater ID="Repeater4" runat="server">
+                    <ItemTemplate>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <i class="fa-li fa fa-check"></i>
+                                <asp:Label ID="Label16" runat="server" Text='<%# Eval("SKILL") %>'></asp:Label></li>
+
+                        </ul>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
         </section>
 

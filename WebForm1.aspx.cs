@@ -18,6 +18,14 @@ namespace CVBlog
             DataSet1TableAdapters.EXPERIENCETableAdapter dt2 = new DataSet1TableAdapters.EXPERIENCETableAdapter();
             Repeater2.DataSource = dt2.ExperienceList();
             Repeater2.DataBind();
+
+            DataSet1TableAdapters.EDUCATIONTableAdapter dt3 = new DataSet1TableAdapters.EDUCATIONTableAdapter();
+            Repeater3.DataSource = dt3.EducationList(); 
+            Repeater3.DataBind();
+
+            DataSet1TableAdapters.SKILLSTableAdapter dt4 = new DataSet1TableAdapters.SKILLSTableAdapter();
+            Repeater4.DataSource=dt4.skillList();
+            Repeater4.DataBind();
         }
     }
 }
