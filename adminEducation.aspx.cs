@@ -18,7 +18,7 @@ namespace CVBlog
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("adminEducationAdd.aspx");
         }
     }
 }

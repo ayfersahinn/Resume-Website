@@ -20,5 +20,10 @@ namespace CVBlog
             dt.experienceAdd(txtTopic.Text, txtSubtitle.Text, txtDesc.Text, txtDate.Text);
             Response.Redirect("adminExperience.aspx");
         }
+
+        protected void btnSave_Click1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

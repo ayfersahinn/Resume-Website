@@ -26,7 +26,7 @@
         <br />
        
        
-        <asp:Button ID="btnSave" runat="server" Text="SAVE" CssClass="btn btn-success" OnClick="btnSave_Click" />
+        <asp:Button ID="btnSave" runat="server" Text="SAVE" CssClass="btn btn-success" OnClick="btnSave_Click1" />
     </div>
 </form>
 </asp:Content>
