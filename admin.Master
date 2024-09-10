@@ -32,14 +32,14 @@
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
+                    <a href="about.aspx" >
                         <i class="fas fa-home"></i>
                         About
                     </a>
 
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="adminExperience.aspx">
                         <i class="fas fa-briefcase"></i>
                         Experience
                     </a>
