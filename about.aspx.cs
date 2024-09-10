@@ -11,6 +11,15 @@ namespace CVBlog
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            DataSet1TableAdapters.ABOUTTableAdapter dt = new DataSet1TableAdapters.ABOUTTableAdapter();
+            txtName.Text = dt.aboutList()[0].NAME;
+            txtSurname.Text = dt.aboutList()[0].SURNAME;
+            txtAdress.Text = dt.aboutList()[0].ADDRESS;
+            txtEmail.Text = dt.aboutList()[0].MAIL;
+            txtPhone.Text = dt.aboutList()[0].PHONE;
+            txtNotes.Text = dt.aboutList()[0].NOTES;
+            txtImg.Text = dt.aboutList()[0].IMAGE;
+
 
         }
     }
