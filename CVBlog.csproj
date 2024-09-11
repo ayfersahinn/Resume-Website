@@ -1863,6 +1863,7 @@
     <Content Include="adminAward.aspx" />
     <Content Include="adminAwardAdd.aspx" />
     <Content Include="adminAwardDelete.aspx" />
+    <Content Include="adminAwardUpdate.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin.Master.cs">
@@ -2024,6 +2025,13 @@
     </Compile>
     <Compile Include="adminAwardDelete.aspx.designer.cs">
       <DependentUpon>adminAwardDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminAwardUpdate.aspx.cs">
+      <DependentUpon>adminAwardUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminAwardUpdate.aspx.designer.cs">
+      <DependentUpon>adminAwardUpdate.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
