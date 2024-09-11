@@ -25,6 +25,6 @@
             </asp:Repeater>
         </tbody>
     </table>
-    <asp:Button ID="btnAdd" runat="server" Text="+ ADD" CssClass="btn btn-success"    />
+            <asp:HyperLink ID="btn_add" NavigateUrl="~/adminSkillsAdd.aspx" runat="server" CssClass="btn btn-success">+ ADD</asp:HyperLink>
 </form>
 </asp:Content>
