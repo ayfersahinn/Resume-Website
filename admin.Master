@@ -57,7 +57,7 @@
 
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="adminSkill.aspx">
                         <i class="fas fa-image"></i>
                         Skills
                     </a>
