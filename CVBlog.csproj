@@ -1850,6 +1850,7 @@
     <Content Include="adminExperienceUpdate.aspx" />
     <Content Include="adminEducation.aspx" />
     <Content Include="adminEducationAdd.aspx" />
+    <Content Include="adminEducationDelete.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin.Master.cs">
@@ -1920,6 +1921,13 @@
     </Compile>
     <Compile Include="adminEducationAdd.aspx.designer.cs">
       <DependentUpon>adminEducationAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminEducationDelete.aspx.cs">
+      <DependentUpon>adminEducationDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminEducationDelete.aspx.designer.cs">
+      <DependentUpon>adminEducationDelete.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
