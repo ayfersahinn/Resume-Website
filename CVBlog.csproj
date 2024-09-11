@@ -1855,6 +1855,7 @@
     <Content Include="adminSkill.aspx" />
     <Content Include="adminSkillsAdd.aspx" />
     <Content Include="adminSkillsDelete.aspx" />
+    <Content Include="adminSkillsUpdate.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin.Master.cs">
@@ -1960,6 +1961,13 @@
     </Compile>
     <Compile Include="adminSkillsDelete.aspx.designer.cs">
       <DependentUpon>adminSkillsDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminSkillsUpdate.aspx.cs">
+      <DependentUpon>adminSkillsUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminSkillsUpdate.aspx.designer.cs">
+      <DependentUpon>adminSkillsUpdate.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
