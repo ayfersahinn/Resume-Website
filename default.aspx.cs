@@ -34,6 +34,10 @@ namespace CVBlog
             DataSet1TableAdapters.AWARDSTableAdapter dt6 = new DataSet1TableAdapters.AWARDSTableAdapter();
             Repeater6.DataSource= dt6.awardsList();
             Repeater6.DataBind();
+
+            DataSet1TableAdapters.ABOUTTableAdapter dt7 = new DataSet1TableAdapters.ABOUTTableAdapter();
+            Repeater7.DataSource= dt7.aboutList();
+            Repeater7.DataBind();
         }
     }
 }

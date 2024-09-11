@@ -1841,9 +1841,11 @@
     <Content Include="files\vendor\jquery\jquery.min.js" />
     <Content Include="files\vendor\jquery\jquery.slim.js" />
     <Content Include="files\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="loginPage.aspx" />
+    <Content Include="loginStyle.css" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
-    <Content Include="about.aspx" />
+    <Content Include="adminAbout.aspx" />
     <Content Include="adminExperience.aspx" />
     <Content Include="adminExperienceAdd.aspx" />
     <Content Include="adminExperienceDelete.aspx" />
@@ -1878,6 +1880,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="loginPage.aspx.cs">
+      <DependentUpon>loginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="loginPage.aspx.designer.cs">
+      <DependentUpon>loginPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -1886,12 +1895,12 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="about.aspx.cs">
-      <DependentUpon>about.aspx</DependentUpon>
+    <Compile Include="adminAbout.aspx.cs">
+      <DependentUpon>adminAbout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="about.aspx.designer.cs">
-      <DependentUpon>about.aspx</DependentUpon>
+    <Compile Include="adminAbout.aspx.designer.cs">
+      <DependentUpon>adminAbout.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminExperience.aspx.cs">
       <DependentUpon>adminExperience.aspx</DependentUpon>
@@ -2220,6 +2229,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

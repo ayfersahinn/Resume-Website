@@ -39,7 +39,7 @@
 
             <ul class="list-unstyled components">
                 <li class="">
-                    <a href="about.aspx" >
+                    <a href="adminAbout.aspx" >
                         <i class="fas fa-home"></i>
                         About
                     </a>
