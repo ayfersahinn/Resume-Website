@@ -32,7 +32,7 @@
             <span class="d-none d-lg-block">
                 <asp:Repeater ID="Repeater7" runat="server">
                     <ItemTemplate>
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src='<%# Eval("IMAGE") %>' alt="">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src='<%# Eval("IMAGE") %>' alt="" width="180" height="auto">
                         </ItemTemplate>
                     </asp:Repeater>
             </span>
