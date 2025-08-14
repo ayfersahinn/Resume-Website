@@ -90,15 +90,13 @@
                             <asp:Label ID="Label6" runat="server" Text='<%# Eval("NOTES") %>'></asp:Label>
                         </p>
                         <div class="social-icons">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/ayfer-%C5%9Fahin/" target="_blank">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://github.com/ayfersahinn" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#">
-                                <i class="fab fa-instagram"></i>
-                            </a>
+                            
 
                         </div>
                     </div>
