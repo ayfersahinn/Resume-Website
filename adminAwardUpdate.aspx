@@ -6,7 +6,7 @@
     <div class="form-group">
         <div>
             <asp:Label ID="Label1" runat="server" Text="ID:"></asp:Label>
-            <asp:TextBox ID="txtID" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:TextBox ID="txtID" runat="server" CssClass="form-control"  autocomplete="off"></asp:TextBox>
         </div>
         <br />
         <div>

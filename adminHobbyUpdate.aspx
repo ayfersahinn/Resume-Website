@@ -11,7 +11,7 @@
         <br />
         <div>
             <asp:Label ID="Label2" runat="server" Text="Hobby"></asp:Label>
-            <asp:TextBox ID="txtHobby" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:TextBox ID="txtHobby" runat="server" CssClass="form-control"  autocomplete="off"></asp:TextBox>
         </div>
         <br />
         
