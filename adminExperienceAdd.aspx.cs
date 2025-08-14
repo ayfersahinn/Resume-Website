@@ -15,15 +15,12 @@ namespace CVBlog
             
         }
 
-        protected void btnSave_Click(object sender, EventArgs e)
-        {
-            dt.experienceAdd(txtTopic.Text, txtSubtitle.Text, txtDesc.Text, txtDate.Text);
-            Response.Redirect("adminExperience.aspx");
-        }
+        
 
         protected void btnSave_Click1(object sender, EventArgs e)
         {
-
+            dt.experienceAdd(txtTopic.Text, txtSubtitle.Text, txtDesc.Text, txtDate.Text);
+            Response.Redirect("adminExperience.aspx");
         }
     }
 }
