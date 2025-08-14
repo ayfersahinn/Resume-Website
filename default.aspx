@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Resume</title>
 
     <!-- Bootstrap core CSS -->
     <link href="files/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -180,10 +180,7 @@
                     <li class="list-inline-item">
                         <i class="fab fa-css3-alt"></i>
                     </li>
-
-                    <li class="list-inline-item">
-                        <i class="fa-brands fa-bootstrap"></i>
-                    </li>
+                    
                     <li class="list-inline-item">
                         <i class="fab fa-js-square"></i>
                     </li>
@@ -191,10 +188,13 @@
                         <i class="fab fa-python"></i>
                     </li>
                     <li class="list-inline-item">
-                       <i class="fa-solid fa-database"></i>
+                      <i class="fas fa-database"></i>
                     </li>
                     <li class="list-inline-item">
-                       <i class="fa-brands fa-flutter"></i>
+                        <i class="fab fa-github"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-figma"></i>
                     </li>
                 </ul>
 
