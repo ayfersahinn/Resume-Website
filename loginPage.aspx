@@ -43,7 +43,7 @@
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
                             <%--<input type="password" class="form-control" placeholder="password">--%>
-                            <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" placeholder="password" TextMode="Password"></asp:TextBox>
+                            <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" placeholder="password" TextMode="Password" autocomplete="new-password"></asp:TextBox>
                         </div>
                         <div class="row align-items-center remember">
                             <input type="checkbox">Remember Me
