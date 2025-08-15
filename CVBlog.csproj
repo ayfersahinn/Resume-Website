@@ -1843,6 +1843,7 @@
     <Content Include="files\vendor\jquery\jquery.slim.min.js" />
     <Content Include="loginPage.aspx" />
     <Content Include="loginStyle.css" />
+    <Content Include="scriptFile\script.sql" />
     <Content Include="Web.config" />
     <Content Include="default.aspx" />
     <Content Include="adminAbout.aspx" />
