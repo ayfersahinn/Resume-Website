@@ -29,6 +29,13 @@ A resume website built with ASP.NET (Web Forms), C#, SQL Server (MSSQL), and ADO
 <img width="1895" height="842" alt="Ekran görüntüsü 2025-08-15 152417" src="https://github.com/user-attachments/assets/4749596a-3939-4823-8808-7d1529d29000" />
 <img width="1901" height="866" alt="Ekran görüntüsü 2025-08-15 152404" src="https://github.com/user-attachments/assets/7742187d-7bdb-4af0-8f3d-4a7b2dad4036" />
 
-## ⚙️ Configuration
+---
 
+## ⚙️ Configuration
 **Important:** Before running the project, make sure to set your **own database connection**.
+
+---
+
+## 🛢️ Database Schema
+Database structure is provided in `/scriptFile/script.sql`. Run this script in your local SQL Server to create the database tables.
+
