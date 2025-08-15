@@ -28,7 +28,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Clarence Taylor</span>
+            <span class="d-block d-lg-none">Ayfer Şahin</span>
             <span class="d-none d-lg-block">
                 <asp:Repeater ID="Repeater7" runat="server">
                     <ItemTemplate>
