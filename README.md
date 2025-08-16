@@ -26,6 +26,11 @@ A resume website built with ASP.NET (Web Forms), C#, SQL Server (MSSQL), and ADO
 <img width="1920" height="856" alt="Ekran görüntüsü 2025-08-15 152344" src="https://github.com/user-attachments/assets/39b5cdb6-d4ca-447e-a2c8-0c544fee1187" />
 <img width="1860" height="857" alt="Ekran görüntüsü 2025-08-15 152322" src="https://github.com/user-attachments/assets/1cb2a563-2d94-47dd-825c-eae09c242525" />
 <img width="1902" height="875" alt="Ekran görüntüsü 2025-08-15 152305" src="https://github.com/user-attachments/assets/44ecf265-adf9-4fd1-9b86-d4eae803a690" />
+<img width="1901" height="877" alt="Ekran görüntüsü 2025-08-16 172047" src="https://github.com/user-attachments/assets/8feab665-3e76-4964-982f-384abc8830d5" />
+<img width="1898" height="876" alt="Ekran görüntüsü 2025-08-16 172031" src="https://github.com/user-attachments/assets/17ee6871-d97b-4f66-a89f-cb3903625e6e" />
+<img width="1876" height="857" alt="Ekran görüntüsü 2025-08-16 172113" src="https://github.com/user-attachments/assets/909c7d83-fd06-43b5-a7f4-15ad726991b5" />
+<img width="1888" height="836" alt="Ekran görüntüsü 2025-08-16 172102" src="https://github.com/user-attachments/assets/2a1c2d50-5d92-441e-8262-4739d9b247ab" />
+
 <img width="1895" height="842" alt="Ekran görüntüsü 2025-08-15 152417" src="https://github.com/user-attachments/assets/4749596a-3939-4823-8808-7d1529d29000" />
 <img width="1901" height="866" alt="Ekran görüntüsü 2025-08-15 152404" src="https://github.com/user-attachments/assets/7742187d-7bdb-4af0-8f3d-4a7b2dad4036" />
 
